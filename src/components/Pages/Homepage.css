@@ -1,0 +1,11 @@
+.background_vd{
+    width: 100%;
+    position: absolute;
+}
+.home_text{
+    position: relative;
+    color: aliceblue;
+    align-items: center;
+    padding: 30% 0;
+    padding-left: 15%;
+}

@@ -1,0 +1,104 @@
+.asosiy_background{
+    background-image: url("../../../public/tashkent_univer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.asosiy_box{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    margin: 50px 0;
+}
+.ferst_box{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 5px;
+    padding: 30px 20px;
+    height: 400px;
+    background-color: aliceblue;
+    
+}
+.ferst_card{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: aliceblue;
+}
+.second_box{
+   display: grid;
+   grid-template-columns: auto;
+   gap: 30px;
+ 
+}
+.second_box img{
+    width: 300px;
+    height: 300px;
+}
+
+.second_text{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+}
+.search_box{
+   display: grid;
+   grid-template-columns: auto;
+   gap: 10px;
+}
+.search_box button{
+    padding: 5px ;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(47, 54, 254);
+    color: aliceblue;
+}
+.date_box{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+.date_box button{
+    padding: 5px ;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(47, 54, 254);
+    color: aliceblue; 
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(129, 129, 118);
+}
+.card_line{
+    border: 1px solid rgb(153, 146, 146);
+    /* width: 100%;  */
+}
+.line{
+    border: 1px solid rgb(153, 146, 146);
+    width: 50%;
+}
+
+
+
+
+
+@media (max-width:1210px){
+  .asosiy_box{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 10px 20px;
+  }
+   
+}
+@media (max-width:810px){
+    .ferst_card{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+}
